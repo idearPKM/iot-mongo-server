@@ -8,9 +8,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
   <script src="app.js"></script>
   <meta charset="utf-8">
-  <title>CoFen</title>
+  <title>save data iot</title>
 </head>
 <body ng-controller="AppController as scope">
-  {{scope.name}}
+
+ID IOT :
+ <input type="text" ng-model="scope.iot_id"></p>
+Temperature :
+ <input type="text" ng-model="scope.temperature"></p>
+Relative Humidity :
+ <input type="text" ng-model="scope.relative_humidity"></p>
+
+  {{scope.relative_humidity}}
 </body>
 </html>
